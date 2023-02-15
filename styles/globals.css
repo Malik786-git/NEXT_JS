@@ -13,3 +13,8 @@ body{
 .heading_style{
     color: blue;
 }
+
+.customImage{
+width: 100px;
+height: 100px;
+}
