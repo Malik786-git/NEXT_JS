@@ -2,27 +2,30 @@ import { useRouter } from "next/router"
 
 const blogNo = () => {
 
-  const router = useRouter();
-  const No = router.query.blogNo;
+  // for get router query...
+  // const router = useRouter();
+  // const No = router.query.blogNo;
+ 
 
-
-  // inline style like html file head tag <style></style>
-
-
+  // or
+  // for get blog dynamic data
+  
+  
   return (
     <div>
+      {/* // inline style like html file head tag <style></style> */}
       {/* Styled-JSX */}
       <style jsx>
         {`
             h1{
               color: blue;
             }
-
         `}
       </style>
-      <h1> Blog No. {No}</h1>
+      <h1> Blog No.</h1>
     </div>
   )
 }
 
-export default blogNo
+
+export default blogNo;
